@@ -39,6 +39,10 @@
   color: #567b7c;
 }
 
+.links{
+  text-align: center;
+  padding-right: 3%;
+}
 ul li{
   list-style-type: none;
   display: inline-block;
@@ -47,7 +51,6 @@ ul li{
 }
 
 ul{
-  text-align: center;
   font-family: 'kionaregular';
 }
 
