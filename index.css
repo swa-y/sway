@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'electronica_display_stencilRg';
+    src: url('font/electronica_display_stencil-webfont.woff2') format('woff2'),
+         url('font/electronica_display_stencil-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'kionaregular';
+  src: url('font/kiona-regular-webfont.woff2') format('woff2'),
+       url('font/kiona-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+::selection{
+  background-color: rgb(179, 179, 204);
+  color: white;
+  }
+
+.conteneur{
+  z-index: 1000;
+  position: relative;
+}
+
+.pseudo{
+  font-family: 'electronica_display_stencilRg';
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 10%;
+  margin-bottom:25px;
+  color:#78aaad;
+}
+
+.description{
+  text-align: center;
+  font-family: 'kionaregular';
+  color: #567b7c;
+}
+
+ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 0.5rem;
+  color:#567b7c;
+}
+
+ul{
+  text-align: center;
+  font-family: 'kionaregular';
+}
+
+a
+{
+    text-decoration: none;
+    color: #567b7c;
+    background-image: linear-gradient(rgba(136, 246, 251, 0.3), rgba(136, 246, 251, 0.3));
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    transition: background-size .2s;
+}
+a:hover, a:focus
+{ 
+    background-size: 100% 100%;
+    color:lightgrey;
+}
+
+
+
